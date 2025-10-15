@@ -13,54 +13,52 @@
 
 ## 💻 Proje Hakkında
 
-Bu proje, **Entity Framework (EF)** teknolojisinin veri erişim katmanında nasıl kullanılacağını gösteren, basit bir **seyahat ve gezi yönetim uygulamasıdır**. Temel amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlemlerini, özellikle **CRUD** operasyonlarını, pratik olarak uygulamaktır.
+Bu proje, **Entity Framework (EF)** teknolojisinin veri erişim katmanında kullanımını gösteren, basit bir **seyahat ve gezi yönetim uygulamasıdır**.  
+Amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlemlerini ve **CRUD operasyonlarını** pratik olarak göstermek.
 
 ---
 
 ## ✨ Temel Özellikler
 
 ### Entity Framework Uygulaması
-* **ORM (Object-Relational Mapping):** Veritabanı tablolarının C# sınıfları (Entity'ler) olarak temsil edilmesi ve yönetilmesi.
-* **CRUD Operasyonları:** Gezi, rotalar ve kullanıcılar gibi temel varlıklar üzerinde **ekleme, listeleme, güncelleme ve silme** işlemlerinin EF aracılığıyla gerçekleştirilmesi.
-* **LINQ Kullanımı:** Veri sorgulamalarının C# kodu içinde (Language Integrated Query) ile yazılması.
-* **İlişkisel Veri Yönetimi:** Tablolar arası **bire-çok (one-to-many)** ve **çok-çok (many-to-many)** ilişkilerinin EF ile modellenmesi.
+* **ORM (Object-Relational Mapping):** Veritabanı tablolarının C# sınıfları (Entity) olarak temsil edilmesi.
+* **CRUD Operasyonları:** Gezi ve rehberler üzerinde **ekleme, listeleme, güncelleme, silme** işlemleri.
+* **LINQ Kullanımı:** Verilere C# üzerinden sorgulama yapılması.
+* **İlişkisel Veri Yönetimi:** Tablolar arası **one-to-many** ilişkilerinin modellenmesi (ör: Guide → Location).
 
-### Fonksiyonel Modüller (Varsayımsal)
-* **Rota/Gezi Yönetimi:** Yeni gezi rotaları oluşturma, lokasyon ve tarih bilgilerini yönetme.
-* **Kullanıcı Kayıtları:** Gezilere katılan veya rezervasyon yapan kullanıcıların takibi.
-* **Listeleme ve Filtreleme:** Gezilerin destinasyon, fiyat veya tarihe göre listelenmesi ve filtrelenmesi.
+### Fonksiyonel Modüller
+* **Rehber Yönetimi:** Rehber ekleme, listeleme, güncelleme ve silme.
+* **Lokasyon Yönetimi:** Turistik lokasyon ekleme, düzenleme, silme ve listeleme.
+* **İstatistikler:** Kapasite, fiyat, rehber sayısı gibi özet bilgilerin görüntülenmesi.
 
 ### Kullanılan Teknolojiler
-* **C#:** Programlama dili.
-* **Entity Framework (EF):** Veri erişim teknolojisi.
-* **SQL Server:** Veritabanı yönetim sistemi.
-* **.NET (Web/Console):** Uygulama altyapısı (projenin türüne göre).
+* **C#**  
+* **Entity Framework (EF)**  
+* **SQL Server**  
+* **Windows Forms**  
 
 ---
 
 ## 🚀 Nasıl Çalıştırılır?
 
-Bu proje, bir **SQL Server** veritabanı ve **Visual Studio** ortamını gerektirir.
-
 1.  **Projeyi Klonlama:**
     ```bash
-    git clone [https://github.com/abdullahhaktan/EfTravelProject](https://github.com/abdullahhaktan/EfTravelProject)
+    git clone https://github.com/abdullahhaktan/EfTravelProject
     cd EfTravelProject
     ```
 
 2.  **Veritabanı Kurulumu:**
-    * **Entity Framework Migrations** kullanılıyorsa: **Package Manager Console** üzerinden `Update-Database` komutunu çalıştırarak veritabanını oluşturun veya güncelleyin.
-    * Manuel kurulum gerekiyorsa: **SQL Server Management Studio'yu** açın ve projenin gerektirdiği şemayı (tabloları) oluşturun.
+    * Eğer **EF Migrations** kullanıyorsa: **Package Manager Console** üzerinden `Update-Database` komutunu çalıştırın.  
+    * Manuel kurulum gerekiyorsa: **SQL Server Management Studio** açın ve gerekli tabloları oluşturun.
 
-3.  **Bağlantı Dizesini Ayarlama:**
-    * Projenin yapılandırma dosyasındaki (`Web.config` veya `appsettings.json`) **SQL Server bağlantı dizesini** kendi yerel sunucu adınıza göre güncelleyin.
+3.  **Bağlantı Dizesi Ayarı:**
+    * `Web.config` veya `appsettings.json` içindeki SQL Server bağlantı dizesini kendi ortamınıza göre güncelleyin.
 
 4.  **Projeyi Başlatma:**
-    * **Visual Studio** ile `.sln` (Solution) dosyasını açın.
-    * Gerekliyse **NuGet** paketlerini geri yükleyin.
-    * Uygulamayı çalıştırın (F5).
+    * Visual Studio ile `.sln` dosyasını açın.
+    * Gerekirse NuGet paketlerini geri yükleyin.
+    * **F5** ile çalıştırın.
 
----
 ---
 
 [EN]
@@ -73,54 +71,52 @@ Bu proje, bir **SQL Server** veritabanı ve **Visual Studio** ortamını gerekti
 
 ## 💻 About the Project
 
-This project is a simple **travel and tour management application** demonstrating the use of **Entity Framework (EF)** in the data access layer. The primary goal is to practically apply database operations, particularly **CRUD** operations, using the **Code First** or **Database First** approach.
+This project is a simple **travel and tour management application** demonstrating **Entity Framework (EF)** usage in data access.  
+The goal is to practically apply database operations, particularly **CRUD**, using **Code First** or **Database First** approaches.
 
 ---
 
 ## ✨ Core Features
 
 ### Entity Framework Implementation
-* **ORM (Object-Relational Mapping):** Representation and management of database tables as C# classes (Entities).
-* **CRUD Operations:** Implementation of **Create, Read, Update, and Delete** operations on core entities like tours, routes, and users via EF.
-* **LINQ Usage:** Writing data queries directly within C# code using Language Integrated Query.
-* **Relational Data Management:** Modeling **one-to-many** and **many-to-many** relationships between tables using EF.
+* **ORM (Object-Relational Mapping):** Database tables represented as C# classes (Entities).  
+* **CRUD Operations:** Create, Read, Update, Delete for tours and guides.  
+* **LINQ Usage:** Query data directly from C# code.  
+* **Relational Data:** One-to-many relationships (Guide → Location) modeled in EF.
 
-### Functional Modules (Assumed)
-* **Route/Tour Management:** Creating new travel routes and managing location and date details.
-* **User Records:** Tracking users who join or make reservations for tours.
-* **Listing and Filtering:** Listing and filtering tours based on destination, price, or date.
+### Functional Modules
+* **Guide Management:** Add, list, update, delete guides.  
+* **Location Management:** Add, update, delete, list tourist locations.  
+* **Statistics:** View totals like capacity, price, guide count.
 
-### Technologies Used
-* **C#:** Programming language.
-* **Entity Framework (EF):** Data access technology.
-* **SQL Server:** Database management system.
-* **.NET (Web/Console):** Application platform (depending on project type).
+### Technologies
+* **C#**  
+* **Entity Framework (EF)**  
+* **SQL Server**  
+* **Windows Forms**  
 
 ---
 
 ## 🚀 How to Run
 
-This project requires a **SQL Server** database and a **Visual Studio** environment.
-
-1.  **Cloning the Project:**
+1.  **Clone the Project:**
     ```bash
-    git clone [https://github.com/abdullahhaktan/EfTravelProject](https://github.com/abdullahhaktan/EfTravelProject)
+    git clone https://github.com/abdullahhaktan/EfTravelProject
     cd EfTravelProject
     ```
 
 2.  **Database Setup:**
-    * If **Entity Framework Migrations** are used: Run the `Update-Database` command via the **Package Manager Console** to create or update the database.
-    * If manual setup is needed: Open **SQL Server Management Studio** and create the required schema (tables) for the project.
+    * If **EF Migrations** are used: run `Update-Database` in **Package Manager Console**.  
+    * If manual setup: create required tables in **SQL Server Management Studio**.
 
-3.  **Configuring the Connection String:**
-    * Update the **SQL Server connection string** in the project's configuration file (`Web.config` or `appsettings.json`) to match your local server name.
+3.  **Configure Connection String:**
+    * Update the connection string in `Web.config` or `appsettings.json` to match your local SQL Server.
 
-4.  **Starting the Project:**
-    * Open the **`.sln`** (Solution) file with **Visual Studio**.
-    * Restore **NuGet** packages if necessary.
-    * Run the application (F5).
+4.  **Start the Project:**
+    * Open the `.sln` file in Visual Studio.  
+    * Restore NuGet packages if needed.  
+    * Press **F5** to run.
 
 ---
----
 
-<img width="865" height="423" alt="Ekran görüntüsü 2025-10-06 114033" src="https://github.com/user-attachments/assets/e2858745-2e7e-4605-946a-f4b77d152932" />
+<img width="865" height="423" alt="Ekran görüntüsü" src="https://github.com/user-attachments/assets/e2858745-2e7e-4605-946a-f4b77d152932" />
