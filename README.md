@@ -1,4 +1,4 @@
-<img width="925" height="340" alt="Ekran görüntüsü 2025-11-27 155450" src="https://github.com/user-attachments/assets/d1569fe4-fae6-41d5-8f66-a00814b9179a" /># AgricultureManagementSystem
+# AgricultureManagementSystem
 
 [TR]
 
@@ -166,3 +166,7 @@ The goal is to manage **agriculture services, announcements, team members, and c
 ---
 
 <img width="937" height="238" alt="Ekran görüntüsü 2025-11-27 155600" src="https://github.com/user-attachments/assets/54ad3751-dac1-49db-af29-a97b0f49cee2" />
+
+---
+
+<img width="1901" height="2048" alt="localhost_7138_Dashboard_Index" src="https://github.com/user-attachments/assets/46fe5242-9925-4ee7-bcab-6134cee41134" />
