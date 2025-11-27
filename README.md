@@ -1,4 +1,4 @@
-<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/d4cfa48d-1488-4c11-a802-db96c7b8a491" /># AgricultureManagementSystem
+<img width="925" height="340" alt="Ekran görüntüsü 2025-11-27 155450" src="https://github.com/user-attachments/assets/d1569fe4-fae6-41d5-8f66-a00814b9179a" /># AgricultureManagementSystem
 
 [TR]
 
@@ -137,30 +137,32 @@ The goal is to manage **agriculture services, announcements, team members, and c
 
 ---
 
-<img width="938" height="434" alt="Ekran görüntüsü 2025-11-27 154457" src="https://github.com/user-attachments/assets/15499a4a-9d56-46cb-9510-38187d562771" />
+<img width="937" height="385" alt="Ekran görüntüsü 2025-11-27 155346" src="https://github.com/user-attachments/assets/cf45add7-9e17-42d7-8850-90a5dd8299e6" />
 
 ---
 
-<img width="938" height="440" alt="Ekran görüntüsü 2025-11-27 154614" src="https://github.com/user-attachments/assets/818ba918-dbbd-469b-9494-3169e1873686" />
+<img width="930" height="410" alt="Ekran görüntüsü 2025-11-27 155410" src="https://github.com/user-attachments/assets/4ba64191-d917-430f-ae9d-dd771d9833a2" />
 
 ---
 
-<img width="916" height="365" alt="Ekran görüntüsü 2025-11-27 154747" src="https://github.com/user-attachments/assets/e344e509-2c8a-438e-943f-4172db653f12" />
+<img width="929" height="320" alt="Ekran görüntüsü 2025-11-27 155434" src="https://github.com/user-attachments/assets/239123e0-b0b9-4f50-89f4-e96b8efb6591" />
 
 ---
 
-<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/7fb67fda-cfc4-4143-b4a9-ba48e6a57573" />
+<img width="925" height="340" alt="Ekran görüntüsü 2025-11-27 155450" src="https://github.com/user-attachments/assets/50dde152-f0e4-4600-80a2-f92b17e56d82" />
 
 ---
 
-<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/3f4c0668-9868-4042-8b4a-92298846d86e" />
-
-
----
-
-<img width="937" height="269" alt="Ekran görüntüsü 2025-11-27 154825" src="https://github.com/user-attachments/assets/56bab2e2-241b-4123-b9ee-36e348ad865a" />
+<img width="878" height="356" alt="Ekran görüntüsü 2025-11-27 155510" src="https://github.com/user-attachments/assets/06932e25-81b9-49c3-a4e7-6aa27a318e2a" />
 
 ---
 
-<img width="938" height="241" alt="Ekran görüntüsü 2025-11-27 154842" src="https://github.com/user-attachments/assets/3326380e-e26c-4572-9f29-67bd6d5cfece" />
+<img width="907" height="275" alt="Ekran görüntüsü 2025-11-27 155526" src="https://github.com/user-attachments/assets/01bba750-2217-47fb-b9bf-c4898cbd1700" />
 
+---
+
+<img width="923" height="265" alt="Ekran görüntüsü 2025-11-27 155545" src="https://github.com/user-attachments/assets/0893fc73-062a-44be-8b50-fe1be0e3f66f" />
+
+---
+
+<img width="937" height="238" alt="Ekran görüntüsü 2025-11-27 155600" src="https://github.com/user-attachments/assets/54ad3751-dac1-49db-af29-a97b0f49cee2" />
