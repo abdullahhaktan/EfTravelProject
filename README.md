@@ -1,41 +1,48 @@
-# EfTravelProject
+# AgricultureManagementSystem
 
 [TR]
 
-**Entity Framework Kullanılarak Geliştirilmiş Seyahat ve Gezi Yönetim Uygulaması**
+**ASP.NET Core MVC + Entity Framework Core + Identity Kullanılarak Geliştirilmiş Tarım Yönetimi Uygulaması**
 
-[![Entity Framework](https://img.shields.io/badge/ORM-Entity_Framework-774996.svg)](https://docs.microsoft.com/en-us/ef/)
+[![Entity Framework](https://img.shields.io/badge/ORM-Entity_Framework_Core-6C2DBE.svg)](https://docs.microsoft.com/en-us/ef/core/)
 [![C#](https://img.shields.io/badge/Language-C%23-blue.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![ASP.NET Core](https://img.shields.io/badge/Framework-ASP.NET_Core-5C2D91.svg)](https://docs.microsoft.com/en-us/aspnet/core/)
 [![Database](https://img.shields.io/badge/Database-SQL_Server-CC2927.svg)](https://www.microsoft.com/en-us/sql-server)
-[![GitHub repo size](https://img.shields.io/github/repo-size/abdullahhaktan/EfTravelProject)](https://github.com/abdullahhaktan/EfTravelProject)
+[![GitHub repo size](https://img.shields.io/github/repo-size/username/AgricultureManagementSystem)](https://github.com/username/AgricultureManagementSystem)
 
 ---
 
 ## 💻 Proje Hakkında
 
-Bu proje, **Entity Framework (EF)** teknolojisinin veri erişim katmanında kullanımını gösteren, basit bir **seyahat ve gezi yönetim uygulamasıdır**.  
-Amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlemlerini ve **CRUD operasyonlarını** pratik olarak göstermek.
+Bu proje, **ASP.NET Core MVC**, **Entity Framework Core** ve **Identity** teknolojilerini kullanarak geliştirilmiş bir **tarım yönetimi uygulamasıdır**.  
+Amaç, kullanıcıların **tarım hizmetlerini, duyuruları, ekip üyelerini ve iletişim bilgilerini** yönetebildiği bir sistem oluşturmaktır.
 
 ---
 
 ## ✨ Temel Özellikler
 
-### Entity Framework Uygulaması
-* **ORM (Object-Relational Mapping):** Veritabanı tablolarının C# sınıfları (Entity) olarak temsil edilmesi.
-* **CRUD Operasyonları:** Gezi ve rehberler üzerinde **ekleme, listeleme, güncelleme, silme** işlemleri.
-* **LINQ Kullanımı:** Verilere C# üzerinden sorgulama yapılması.
-* **İlişkisel Veri Yönetimi:** Tablolar arası **one-to-many** ilişkilerinin modellenmesi (ör: Guide → Location).
+### Kullanıcı ve Kimlik Yönetimi
+* **Login/Logout:** ASP.NET Core Identity ile güvenli giriş ve çıkış işlemleri.
+* **Rol Yönetimi:** Kullanıcı yetkilendirme (Admin, User vb.).
 
-### Fonksiyonel Modüller
-* **Rehber Yönetimi:** Rehber ekleme, listeleme, güncelleme ve silme.
-* **Lokasyon Yönetimi:** Turistik lokasyon ekleme, düzenleme, silme ve listeleme.
-* **İstatistikler:** Kapasite, fiyat, rehber sayısı gibi özet bilgilerin görüntülenmesi.
+### CRUD Operasyonları
+* **Duyurular:** Ekleme, güncelleme, silme ve listeleme.
+* **Hizmetler:** Tarım hizmetlerini yönetme.
+* **Takım Yönetimi:** Ekip üyeleri ekleme, düzenleme ve silme.
+* **Adres ve İletişim Yönetimi:** Firma veya çiftçi bilgilerini kaydetme ve görüntüleme.
+
+### Validasyon
+* **FluentValidation:** Model doğrulama ve kullanıcı dostu hata mesajları.
+* **Tarih ve Alan Kontrolü:** Boş alan kontrolü, tarih geçerliliği, minimum karakter kontrolü.
 
 ### Kullanılan Teknolojiler
 * **C#**  
-* **Entity Framework (EF)**  
+* **ASP.NET Core MVC**  
+* **Entity Framework Core**  
 * **SQL Server**  
-* **Windows Forms**  
+* **ASP.NET Core Identity**  
+* **FluentValidation**  
+* **Razor View Engine**
 
 ---
 
@@ -43,8 +50,8 @@ Amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlem
 
 1.  **Projeyi Klonlama:**
     ```bash
-    git clone https://github.com/abdullahhaktan/EfTravelProject
-    cd EfTravelProject
+    git clone https://github.com/username/AgricultureManagementSystem
+    cd AgricultureManagementSystem
     ```
 
 2.  **Veritabanı Kurulumu:**
@@ -52,7 +59,12 @@ Amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlem
     * Manuel kurulum gerekiyorsa: **SQL Server Management Studio** açın ve gerekli tabloları oluşturun.
 
 3.  **Bağlantı Dizesi Ayarı:**
-    * `Web.config` veya `appsettings.json` içindeki SQL Server bağlantı dizesini kendi ortamınıza göre güncelleyin.
+    * `appsettings.json` içindeki SQL Server bağlantı dizesini kendi ortamınıza göre güncelleyin:
+    ```json
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=YOUR_SERVER;Database=DbAgriculture;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;"
+    }
+    ```
 
 4.  **Projeyi Başlatma:**
     * Visual Studio ile `.sln` dosyasını açın.
@@ -63,37 +75,43 @@ Amaç, **Code First** veya **Database First** yaklaşımıyla veritabanı işlem
 
 [EN]
 
-# EfTravelProject
+# AgricultureManagementSystem
 
-**Travel and Tour Management Application Developed Using Entity Framework**
+**ASP.NET Core MVC + EF Core + Identity Based Agriculture Management System**
 
 ---
 
 ## 💻 About the Project
 
-This project is a simple **travel and tour management application** demonstrating **Entity Framework (EF)** usage in data access.  
-The goal is to practically apply database operations, particularly **CRUD**, using **Code First** or **Database First** approaches.
+This project is an **agriculture management system** built with **ASP.NET Core MVC**, **EF Core**, and **Identity**.  
+The goal is to manage **agriculture services, announcements, team members, and contact information** efficiently.
 
 ---
 
 ## ✨ Core Features
 
-### Entity Framework Implementation
-* **ORM (Object-Relational Mapping):** Database tables represented as C# classes (Entities).  
-* **CRUD Operations:** Create, Read, Update, Delete for tours and guides.  
-* **LINQ Usage:** Query data directly from C# code.  
-* **Relational Data:** One-to-many relationships (Guide → Location) modeled in EF.
+### User & Identity Management
+* **Login/Logout:** Secure login and logout with ASP.NET Core Identity.
+* **Role Management:** Admin and user role authorization.
 
-### Functional Modules
-* **Guide Management:** Add, list, update, delete guides.  
-* **Location Management:** Add, update, delete, list tourist locations.  
-* **Statistics:** View totals like capacity, price, guide count.
+### CRUD Operations
+* **Announcements:** Add, update, delete, list.
+* **Services:** Manage agriculture services.
+* **Team Management:** Add, edit, delete team members.
+* **Address & Contact Management:** Store and view addresses and contact information.
+
+### Validation
+* **FluentValidation:** Model validation with user-friendly messages.
+* **Date & Field Control:** Non-empty fields, minimum character length, future date validation.
 
 ### Technologies
 * **C#**  
-* **Entity Framework (EF)**  
+* **ASP.NET Core MVC**  
+* **Entity Framework Core**  
 * **SQL Server**  
-* **Windows Forms**  
+* **ASP.NET Core Identity**  
+* **FluentValidation**  
+* **Razor View Engine**
 
 ---
 
@@ -101,8 +119,8 @@ The goal is to practically apply database operations, particularly **CRUD**, usi
 
 1.  **Clone the Project:**
     ```bash
-    git clone https://github.com/abdullahhaktan/EfTravelProject
-    cd EfTravelProject
+    git clone https://github.com/username/AgricultureManagementSystem
+    cd AgricultureManagementSystem
     ```
 
 2.  **Database Setup:**
@@ -110,13 +128,13 @@ The goal is to practically apply database operations, particularly **CRUD**, usi
     * If manual setup: create required tables in **SQL Server Management Studio**.
 
 3.  **Configure Connection String:**
-    * Update the connection string in `Web.config` or `appsettings.json` to match your local SQL Server.
+    * Update the connection string in `appsettings.json` to match your local SQL Server.
 
 4.  **Start the Project:**
-    * Open the `.sln` file in Visual Studio.  
-    * Restore NuGet packages if needed.  
+    * Open the `.sln` file in Visual Studio.
+    * Restore NuGet packages if needed.
     * Press **F5** to run.
 
 ---
 
-<img width="865" height="423" alt="Ekran görüntüsü" src="https://github.com/user-attachments/assets/e2858745-2e7e-4605-946a-f4b77d152932" />
+![Uploading localhost_7138_Default_Index (2).png…]()
