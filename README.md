@@ -137,4 +137,4 @@ The goal is to manage **agriculture services, announcements, team members, and c
 
 ---
 
-![Uploading localhost_7138_Default_Index (2).png…]()
+<img width="1521" height="8396" alt="tarımFoto" src="https://github.com/user-attachments/assets/469cf968-f851-4647-a9d0-50e431f84132" />
