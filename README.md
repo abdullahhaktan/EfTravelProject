@@ -1,4 +1,4 @@
-# AgricultureManagementSystem
+<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/d4cfa48d-1488-4c11-a802-db96c7b8a491" /># AgricultureManagementSystem
 
 [TR]
 
@@ -137,4 +137,30 @@ The goal is to manage **agriculture services, announcements, team members, and c
 
 ---
 
-<img width="1521" height="8396" alt="tarımFoto" src="https://github.com/user-attachments/assets/469cf968-f851-4647-a9d0-50e431f84132" />
+<img width="938" height="434" alt="Ekran görüntüsü 2025-11-27 154457" src="https://github.com/user-attachments/assets/15499a4a-9d56-46cb-9510-38187d562771" />
+
+---
+
+<img width="938" height="440" alt="Ekran görüntüsü 2025-11-27 154614" src="https://github.com/user-attachments/assets/818ba918-dbbd-469b-9494-3169e1873686" />
+
+---
+
+<img width="916" height="365" alt="Ekran görüntüsü 2025-11-27 154747" src="https://github.com/user-attachments/assets/e344e509-2c8a-438e-943f-4172db653f12" />
+
+---
+
+<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/7fb67fda-cfc4-4143-b4a9-ba48e6a57573" />
+
+---
+
+<img width="939" height="274" alt="Ekran görüntüsü 2025-11-27 154809" src="https://github.com/user-attachments/assets/3f4c0668-9868-4042-8b4a-92298846d86e" />
+
+
+---
+
+<img width="937" height="269" alt="Ekran görüntüsü 2025-11-27 154825" src="https://github.com/user-attachments/assets/56bab2e2-241b-4123-b9ee-36e348ad865a" />
+
+---
+
+<img width="938" height="241" alt="Ekran görüntüsü 2025-11-27 154842" src="https://github.com/user-attachments/assets/3326380e-e26c-4572-9f29-67bd6d5cfece" />
+
